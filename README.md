@@ -1,56 +1,47 @@
-Absolutely! Here's a clean and beginner-friendly `README.md` for your **ArtsyApp** project:
-
----
-
-````markdown
-# 🎨 ArtsyApp
+# ArtsyApp
 
 ArtsyApp is an Android application that lets users explore artists and their artworks through the Artsy API. Authenticated users can favorite artists, view similar artists, and manage their account seamlessly.
 
----
+## Features
 
-## ✨ Features
-
-- 🔍 **Search Artists**  
+* **Search Artists**
   Quickly search for artists using the built-in search bar.
 
-- 🖼️ **Artist Details & Artworks**  
+* **Artist Details & Artworks**
   View artist descriptions and a curated collection of their artworks.
 
-- ❤️ **Favorite Artists**  
+* **Favorite Artists**
   Logged-in users can favorite artists and view their favorites on the homepage.
 
-- 👥 **Authentication**  
-  - Register and log in securely  
-  - Persistent login using cookies  
-  - Logout and delete account functionality
+* **Authentication**
 
-- 🧠 **Similar Artists**  
+  * Register and log in securely
+  * Persistent login using cookies
+  * Logout and delete account functionality
+
+* **Similar Artists**
   Discover similar artists based on your interests once logged in.
 
----
+## Tech Stack
 
-## 🧰 Tech Stack
+### Frontend (Android App)
 
-### 📱 Frontend (Android App)
-- **Kotlin**
-- **Jetpack Compose**
-- **Android Studio**
-- **Retrofit** for network calls
-- **Coil** for image loading
+* Kotlin
+* Jetpack Compose
+* Android Studio
+* Retrofit for network calls
+* Coil for image loading
 
-### 🌐 Backend (API Server)
-- **Node.js**
-- **Express.js**
-- **MongoDB** with Mongoose
-- **JWT** authentication with cookies
+### Backend (API Server)
 
-### 🎨 API
-- [Artsy API](https://developers.artsy.net/)
+* Node.js
+* Express.js
+* MongoDB with Mongoose
+* JWT authentication with cookies
 
----
+### API
 
-## 🖼️ Screenshots
+* [Artsy API](https://developers.artsy.net/)
 
 <img width="352" alt="Screenshot 2025-07-03 at 12 36 36 PM" src="https://github.com/user-attachments/assets/99031371-740d-409d-97bc-dc57bb0153ca" />
 
@@ -62,18 +53,18 @@ ArtsyApp is an Android application that lets users explore artists and their art
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the Repo
 
 ```bash
 git clone https://github.com/Pushks18/ArtsyApp.git
 cd ArtsyApp
-````
+```
 
 ### Android App Setup
 
-1. Open the project in **Android Studio**.
+1. Open the project in Android Studio.
 2. Sync Gradle and run on an emulator or device.
 3. Make sure your backend server is running locally or deployed.
 
@@ -85,11 +76,16 @@ npm install
 npm run dev
 ```
 
-> Configure `.env` for MongoDB URI and JWT secret.
+> Configure a `.env` file in the backend root with the following:
+
+```
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
 
 ---
 
-## 📦 Folder Structure
+## Folder Structure
 
 ```
 ArtsyApp/
@@ -101,30 +97,7 @@ ArtsyApp/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! If you find any bugs or want to suggest features, feel free to open an issue.
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See `LICENSE` for details.
-
----
-
-## 👨‍🎨 Author
-
-Made with ❤️ by [Pushkaraj](https://github.com/Pushks18)
-
-```
-
----
-
-Let me know if you want me to add:
-- badges (build, license, etc.)
-- instructions to get an Artsy API token
-- database schema or API docs
-
-Want me to save this to your project as a `README.md` file?
-```
