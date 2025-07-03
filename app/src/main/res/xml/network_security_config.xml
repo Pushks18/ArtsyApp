@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Option A: allow cleartext for only your host -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">ww25.your-backend-url.com</domain>
+    </domain-config>
+
+    <!-- Option B: allow cleartext globally (not recommended for production) -->
+    <!--
+    <base-config cleartextTrafficPermitted="true"/>
+    -->
+</network-security-config>
